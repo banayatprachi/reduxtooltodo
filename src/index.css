@@ -1,0 +1,112 @@
+/* index.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 189, 238);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* App.jsx */
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color:black;
+  }
+  
+ /* components/AddTodos.jsx */
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 300px;
+    padding: 8px;
+    margin-right: 10px; 
+    border: 1px solid #49354b;
+    border-radius: 4px;
+    background-color: #927591;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color:rgb(194, 137, 194);
+    border: none;
+    color: rgb(27, 26, 26);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* components/Todos.jsx */
+  
+  div{
+    margin-top: 10px;
+    color:black;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(101, 39, 101);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  li input {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  li button {
+    margin-left: 5px; 
+  }
+  
+ 
+
+.completed-task {
+    background-color: #3d5f44; 
+  }
+  
+  .completed-text {
+    text-decoration: line-through;
+    color: #6c757d; 
+  }
+
+  
+  
+  
+ 
+  
+  button.bg-blue-600:hover {
+    background-color: #0056b3;
+  }
+  
+  button.bg-red-500 {
+    background-color: purple;
+    margin-left: 5px; /* Adjusted margin-left for better spacing */
+  }
+  
+  
